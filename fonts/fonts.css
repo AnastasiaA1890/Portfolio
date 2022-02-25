@@ -1,0 +1,12 @@
+/* oxygen regular */
+@font-face {
+  src: url("./oxygen-v14-latin-regular.woff2");
+  font-family: 'Oxygen';
+  font-weight: 400;
+}
+/* oxygen bold */
+@font-face {
+  src: url("./oxygen-v14-latin-700.woff2");
+  font-family: 'Oxygen';
+  font-weight: 700;
+}
