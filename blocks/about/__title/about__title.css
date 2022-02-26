@@ -1,7 +1,9 @@
 .about__title {
+  width: 3.7ch;
   font-weight: 700;
   font-size: 129px;
   line-height: 163px;
   color: #FFFFFF;
-  margin: 0;
+  margin: 0 auto;
+  text-align: center;
 }

@@ -9,3 +9,7 @@
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__subtitle/about__subtitle.css);
+@import url(../blocks/about/__paragraph/about__paragraph.css);
+@import url(../blocks/about/__button/about__button.css);
+@import url(../blocks/about/__button-text/about__button-text.css);

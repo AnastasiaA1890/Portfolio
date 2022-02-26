@@ -1,0 +1,11 @@
+.about__paragraph {
+  margin: 0 auto;
+  width: 65%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 50px;
+  background: -webkit-linear-gradient(#4A5E6B, #3B4F60);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

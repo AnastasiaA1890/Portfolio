@@ -1,0 +1,8 @@
+.about__button {
+  margin-top: 60px;
+  background: #2A3B4F;
+  box-shadow: 0px 0px 0px 1px #566B84;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}

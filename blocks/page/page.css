@@ -1,6 +1,6 @@
 .page {
   margin: 0 auto;
-  background: linear-gradient(270deg, #0B182B 0%, #2A3B4F 100%);;
+  background: linear-gradient(270deg, #0B182B 0%, #2A3B4F 100%);
   font-family: 'Oxygen', 'Arial', sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -8,4 +8,5 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
 }

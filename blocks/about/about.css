@@ -1,8 +1,9 @@
 .about {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 70%;
   margin: 0 auto;
-  padding-top: 8rem;
+  padding-top: 7rem;
 }
