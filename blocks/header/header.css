@@ -4,4 +4,6 @@
   align-items: center;
   padding-top: 34px;
   box-sizing: border-box;
+  width: 80%;
+  margin: 0 auto;
 }

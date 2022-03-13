@@ -1,0 +1,6 @@
+.progress-bar__line {
+  background: #6962FD;
+  border-radius: inherit;
+  display: block;
+  height: 100%;
+}

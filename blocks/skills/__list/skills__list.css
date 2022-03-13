@@ -1,0 +1,6 @@
+.skills__list {
+  display: none;
+  flex-direction: column;
+  padding: 30px 40px;
+  margin: 0;
+}

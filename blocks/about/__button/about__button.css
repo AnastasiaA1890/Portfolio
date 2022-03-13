@@ -1,8 +1,11 @@
 .about__button {
   margin-top: 60px;
-  background: #2A3B4F;
-  box-shadow: 0px 0px 0px 1px #566B84;
-  border-radius: 12px;
+  background: #6962FD;
+  border-radius: 30px;
   border: none;
   cursor: pointer;
+}
+
+.about__button:hover {
+  background: #5c55fc;
 }

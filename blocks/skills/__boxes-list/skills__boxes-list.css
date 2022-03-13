@@ -1,0 +1,6 @@
+.skills__boxes-list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  width: 40%;
+}

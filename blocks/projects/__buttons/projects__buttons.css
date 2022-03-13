@@ -1,0 +1,6 @@
+.projects__buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  padding: 10px 30px 0 30px;
+}

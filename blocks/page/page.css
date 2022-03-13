@@ -1,7 +1,7 @@
 .page {
   margin: 0 auto;
-  background: linear-gradient(270deg, #0B182B 0%, #2A3B4F 100%);
-  font-family: 'Oxygen', 'Arial', sans-serif;
+  background: #0E1117;
+  font-family: 'Poppins', 'Arial', sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;

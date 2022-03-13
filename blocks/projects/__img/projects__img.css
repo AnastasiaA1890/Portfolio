@@ -1,0 +1,8 @@
+.projects__img {
+  width: 430px;
+  height: 220px;
+  object-fit: cover;
+  object-position: 0 0;
+  border-radius: 20px;
+  cursor: pointer;
+}
