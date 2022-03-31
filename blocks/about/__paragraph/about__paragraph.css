@@ -8,3 +8,17 @@
   color: #dcd9e3;
   z-index: 2;
 }
+
+@media screen and (max-width: 900px) {
+  .about__paragraph {
+    width: 80%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .about__paragraph {
+    width: 100%;
+    font-size: 14px;
+  }
+}

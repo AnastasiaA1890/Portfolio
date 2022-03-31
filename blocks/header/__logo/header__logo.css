@@ -6,3 +6,9 @@
   line-height: 32px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 900px) {
+  .header__logo {
+    font-size: 18px;
+  }
+}

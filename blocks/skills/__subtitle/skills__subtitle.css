@@ -3,7 +3,15 @@
   font-size: 22px;
   line-height: 32px;
   color: white;
-  margin: 0;
+  margin: 0 auto;
   padding-right: 85px;
   padding-left: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .skills__subtitle {
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
 }

@@ -12,7 +12,13 @@
 
 .header__link:hover {
   background: #a1a1a2;
-
   transition: .3s ease-in-out 0s;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 900px) {
+  .header__link {
+    font-size: 16px;
+    padding: 8px 10px;
+  }
 }
