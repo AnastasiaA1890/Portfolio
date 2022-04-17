@@ -8,11 +8,19 @@ const designList = document.querySelector('.skills__list-design');
 const backendList = document.querySelector('.skills__list-backend');
 //Menu
 const burger = document.querySelector('.burger');
-const navLinks = document.querySelector('.header__links');
+const navLinks = document.querySelector('.header__links .header__link');
 
-burger.addEventListener('click', () => {
-  navLinks.classList.toggle('header__links-active')
-})
+slideNav = () => {
+  burger.addEventListener('click', () => {
+    navLinks.classList.toggle('header__links-active');
+    burger.classList.toggle('burger__menu');
+    //burger.classList.toggle('burger__menu');
+    //burger.classList.toggle('burger__menu');
+  })
+
+}
+
+slideNav();
 
 frontDropBtn.addEventListener('click', () => {
   if(frontList.classList.contains('skills__list')){
