@@ -6,6 +6,13 @@ const backendDropBtn = document.querySelector('.skills__backend-btn');
 const frontList = document.querySelector('.skills__list-frontend');
 const designList = document.querySelector('.skills__list-design');
 const backendList = document.querySelector('.skills__list-backend');
+//Menu
+const burger = document.querySelector('.burger');
+const navLinks = document.querySelector('.header__links');
+
+burger.addEventListener('click', () => {
+  navLinks.classList.toggle('header__links-active')
+})
 
 frontDropBtn.addEventListener('click', () => {
   if(frontList.classList.contains('skills__list')){
@@ -24,3 +31,4 @@ backendDropBtn.addEventListener('click', () => {
     backendList.classList.toggle('skills__list-active')
   }
 })
+

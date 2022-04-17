@@ -9,3 +9,9 @@
 .about__button:hover {
   background: #5c55fc;
 }
+
+@media screen and (max-width: 550px) {
+  .about__button {
+    margin-top: 40px;
+  }
+}

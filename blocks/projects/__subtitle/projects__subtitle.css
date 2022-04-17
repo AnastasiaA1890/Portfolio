@@ -2,6 +2,13 @@
   color: #a1a1a2;
   font-size: 14px;
   font-weight: 400;
-  padding: 10px 30px 0 30px;
+  padding: 10px 10px 0 10px;
+  text-align: center;
   margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .projects__subtitle {
+    font-size: 12px;
+  }
 }

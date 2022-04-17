@@ -22,3 +22,12 @@
     padding: 8px 10px;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .header__link {
+    font-size: 18px;
+    padding: 0;
+    color: white;
+  }
+}
+

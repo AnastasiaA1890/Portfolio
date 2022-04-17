@@ -6,3 +6,10 @@
   line-height: 28px;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 550px) {
+  .about__button-text {
+    padding: 12px 30px;
+    font-size: 18px;
+  }
+}

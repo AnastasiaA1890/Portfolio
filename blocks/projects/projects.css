@@ -1,5 +1,17 @@
 .projects {
-  padding-top: 100px;
+  padding-top: 150px;
   margin: 0 auto;
   width: 80%;
+}
+
+@media screen and (max-width: 900px) {
+  .projects {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .projects {
+    padding-top: 70px;
+  }
 }

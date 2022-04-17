@@ -2,11 +2,10 @@
   display: flex;
   flex-direction: column;
   padding-top: 70px;
-
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
   .skills__boxes-list {
-
+    padding-top: 50px;
   }
 }

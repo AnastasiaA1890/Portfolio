@@ -1,10 +1,10 @@
 .projects__list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   row-gap: 40px;
   column-gap: 30px;
   margin: 0 auto;
   max-width: 890px;
   padding-top: 60px;
-  justify-content: center;
+  justify-items: center;
 }

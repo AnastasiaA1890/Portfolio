@@ -6,3 +6,30 @@
   border-radius: 20px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1113px) {
+  .projects__img {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .projects__img {
+    width: 320px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .projects__img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .projects__img {
+    width: 200px;
+  }
+}
+
