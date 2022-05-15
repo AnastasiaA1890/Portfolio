@@ -1,8 +1,8 @@
 .projects__list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  row-gap: 40px;
-  column-gap: 30px;
+  row-gap: 70px;
+  column-gap: 100px;
   margin: 0 auto;
   max-width: 890px;
   padding-top: 60px;

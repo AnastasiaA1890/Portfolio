@@ -8,14 +8,14 @@ const designList = document.querySelector('.skills__list-design');
 const backendList = document.querySelector('.skills__list-backend');
 //Menu
 const burger = document.querySelector('.burger');
-const navLinks = document.querySelector('.header__links .header__link');
+const navLinks = document.querySelector('.header__links');
 
-slideNav = () => {
+const slideNav = () => {
   burger.addEventListener('click', () => {
     navLinks.classList.toggle('header__links-active');
     burger.classList.toggle('burger__menu');
-    //burger.classList.toggle('burger__menu');
-    //burger.classList.toggle('burger__menu');
+    burger.classList.toggle('burger__menu');
+    burger.classList.toggle('burger__menu');
   })
 
 }

@@ -6,6 +6,6 @@
   opacity: 0;
 }
 
-.burger__menu .burger__link-2 {
-  transform: rotate(-45deg) translate(-5px, -6px);
+.burger__menu .burger__link-3 {
+  transform: rotate(45deg) translate(-5px, -6px);
 }
