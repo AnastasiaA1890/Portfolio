@@ -6,270 +6,300 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Anastasiia Andreeva</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page">
-  <div class="container">
-    <header class="header">
-      <p class="header__logo">Anastasia’s Portfolio</p>
-      <nav class="header__nav">
-        <ul class="header__links">
-          <li>
-            <a href="#" id="home" class="header__link">Home</a>
+<div class="container">
+  <header class="header">
+    <p class="header__logo">Anastasia’s Portfolio</p>
+    <nav class="header__nav">
+      <ul class="header__links">
+        <li>
+          <a href="#" id="home" class="header__link">Home</a>
+        </li>
+        <li>
+          <a href="#id_skills" id="skills" class="header__link">Skills</a>
+        </li>
+        <li>
+          <a href="#id_projects" id="portfolio" class="header__link">Portfolio</a>
+        </li>
+        <li>
+          <a href="https://github.com/AnastasiaA1890" id="git" class="header__link" target="_blank">GitHub</a>
+        </li>
+        <li>
+          <a href="#id_contact" id="contact" class="header__link">Contact me</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="burger">
+      <div class="burger__link burger__link-1"></div>
+      <div class="burger__link burger__link-2"></div>
+      <div class="burger__link burger__link-3"></div>
+    </div>
+  </header>
+  <section class="about">
+    <h1 class="about__title-greeting">Hello! I am</h1>
+    <h2 class="about__title">Anastasia Andreeva</h2>
+    <img src="./images/casual-life-3d-female-metis-t-shirt-pose-notebook-4.png" alt="Pic Girl"
+         class="about__img rotation">
+    <p class="about__subtitle">
+      > Front end developer
+    </p>
+    <p class="about__paragraph">
+      My name is Anastasiia and I am passionate to work
+      as a Front End Developer. Decided to move from QA testing
+      to web development to create beautiful websites
+      that are responsive and easy to use.
+    </p>
+    <button class="about__button">
+      <p class="about__button-text">{ Hire me }</p>
+    </button>
+  </section>
+  <section id="id_skills" class="skills">
+    <h2 class="skills__title">Skills</h2>
+    <div class="skills__boxes">
+      <div class="skills__boxes-list">
+        <div class="skills__frontend">
+          <i class="fa-solid fa-code fa-2xl"></i>
+          <h3 class="skills__subtitle">Frontend</h3>
+          <i class="skills__frontend-btn fa-solid fa-angle-down fa-lg"></i>
+        </div>
+        <ul class="skills__list skills__list-frontend">
+          <li class="skills__item">
+            <div class="skills__item-container">
+              <h2 class="skills__item-title">HTML</h2>
+              <h3 class="skills__item-percent">80%</h3>
+            </div>
+            <div class="progress-bar">
+              <span class="progress-bar__line" style="width: 80%"></span>
+            </div>
           </li>
-          <li>
-            <a href="#id_skills" id="skills" class="header__link">Skills</a>
+          <li class="skills__item">
+            <div class="skills__item-container">
+              <h2 class="skills__item-title">CSS</h2>
+              <h3 class="skills__item-percent">70%</h3>
+            </div>
+            <div class="progress-bar">
+              <span class="progress-bar__line" style="width: 70%"></span>
+            </div>
+            <div class="skills__item-container">
+              <h2 class="skills__item-title">Java Script</h2>
+              <h3 class="skills__item-percent">70%</h3>
+            </div>
+            <div class="progress-bar">
+              <span class="progress-bar__line" style="width: 70%"></span>
+            </div>
           </li>
-          <li>
-            <a href="#" id="portfolio" class="header__link">Portfolio</a>
-          </li>
-          <li>
-            <a href="https://github.com/AnastasiaA1890" id="git" class="header__link" target="_blank">GitHub</a>
-          </li>
-          <li>
-            <a href="#" id="contact" class="header__link">Contact me</a>
+          <li class="skills__item">
+            <div class="skills__item-container">
+              <h2 class="skills__item-title">React</h2>
+              <h3 class="skills__item-percent">60%</h3>
+            </div>
+            <div class="progress-bar">
+              <span class="progress-bar__line" style="width: 60%"></span>
+            </div>
           </li>
         </ul>
-      </nav>
-      <div class="burger">
-        <div class="burger__link burger__link-1"></div>
-        <div class="burger__link burger__link-2"></div>
-        <div class="burger__link burger__link-3"></div>
       </div>
-    </header>
-    <section class="about">
-      <h1 class="about__title-greeting">Hello! I am</h1>
-      <h2 class="about__title">Anastasia Andreeva</h2>
-      <img src="./images/casual-life-3d-female-metis-t-shirt-pose-notebook-4.png" alt="Pic Girl" class="about__img rotation">
-      <p class="about__subtitle">
-        > Front end developer
-      </p>
-      <p class="about__paragraph">
-        My name is Anastasiia and I am passionate to work
-        as a Front End Developer. Decided to move from QA testing
-        to web development to create beautiful websites
-        that are responsive and easy to use.
-      </p>
-      <button class="about__button">
-        <p class="about__button-text">{ Hire me }</p>
+      <div class="skills__boxes-list">
+        <div class="skills__frontend">
+          <i class="fa-brands fa-sketch fa-2xl"></i>
+          <h3 class="skills__subtitle">Design</h3>
+          <i class="skills__design-btn fa-solid fa-angle-down fa-lg"></i>
+        </div>
+        <ul class="skills__list  skills__list-design">
+          <li class="skills__item">
+            <div class="skills__item-container">
+              <h2 class="skills__item-title">Sketch</h2>
+              <h3 class="skills__item-percent">70%</h3>
+            </div>
+            <div class="progress-bar">
+              <span class="progress-bar__line" style="width: 70%"></span>
+            </div>
+          </li>
+          <li class="skills__item">
+            <div class="skills__item-container">
+              <h2 class="skills__item-title">Figma</h2>
+              <h3 class="skills__item-percent">60%</h3>
+            </div>
+            <div class="progress-bar">
+              <span class="progress-bar__line" style="width: 60%"></span>
+            </div>
+            <div class="skills__item-container">
+              <h2 class="skills__item-title">Adobe XD</h2>
+              <h3 class="skills__item-percent">40%</h3>
+            </div>
+            <div class="progress-bar">
+              <span class="progress-bar__line" style="width: 40%"></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="skills__boxes-list">
+        <div class="skills__frontend">
+          <i class="fa-brands fa-solid fa-database fa-2xl"></i>
+          <h3 class="skills__subtitle">Backend</h3>
+          <i class="skills__backend-btn fa-solid fa-angle-down fa-lg"></i>
+        </div>
+        <ul class="skills__list skills__list-backend">
+          <li class="skills__item">
+            <div class="skills__item-container">
+              <h2 class="skills__item-title">NodeJS</h2>
+              <h3 class="skills__item-percent">80%</h3>
+            </div>
+            <div class="progress-bar">
+              <span class="progress-bar__line" style="width: 80%"></span>
+            </div>
+          </li>
+          <li class="skills__item">
+            <div class="skills__item-container">
+              <h2 class="skills__item-title">Express.js</h2>
+              <h3 class="skills__item-percent">70%</h3>
+            </div>
+            <div class="progress-bar">
+              <span class="progress-bar__line" style="width: 70%"></span>
+            </div>
+            <div class="skills__item-container">
+              <h2 class="skills__item-title">Mongo DB</h2>
+              <h3 class="skills__item-percent">70%</h3>
+            </div>
+            <div class="progress-bar">
+              <span class="progress-bar__line" style="width: 70%"></span>
+            </div>
+          </li>
+          <li class="skills__item">
+            <div class="skills__item-container">
+              <h2 class="skills__item-title">Nginx</h2>
+              <h3 class="skills__item-percent">60%</h3>
+            </div>
+            <div class="progress-bar">
+              <span class="progress-bar__line" style="width: 60%"></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="id_projects" class="projects">
+    <h2 class="projects__title">Projects</h2>
+    <div class="projects__list">
+      <article class="projects__item">
+        <a href="https://anastasiaa1890.github.io/ToDoList/" target="_blank"><img src="./images/todolist.png"
+                                                                                  alt="Todolist Image"
+                                                                                  class="projects__img"></a>
+        <h3 class="project__item-title">Todo List</h3>
+        <p class="projects__subtitle">
+          Java script used. It is possible to add, remove and mark completed item from the ToDo List. Filtering by field
+          values was used.
+        </p>
+        <div class="projects__buttons">
+          <button class="projects__button">
+            <p class="projects__button-text">JavaScript</p>
+          </button>
+          <button class="projects__button">
+            <p class="projects__button-text">HTML5</p>
+          </button>
+          <button class="projects__button">
+            <p class="projects__button-text">CSS3</p>
+          </button>
+          <button class="projects__button">
+            <p class="projects__button-text">Animation</p>
+          </button>
+        </div>
+      </article>
+      <article class="projects__item">
+        <a href="/" target="_blank"><img src="./images/mesto-react.png" alt="Mesto Image" class="projects__img"></a>
+        <h3 class="project__item-title">React project - Mesto</h3>
+        <p class="projects__subtitle">
+          React library used. It is possible to add, remove and like cards from the list. Edit user avatar and
+          information. Getting API information.
+        </p>
+        <div class="projects__buttons">
+          <button class="projects__button">
+            <p class="projects__button-text">JavaScript</p>
+          </button>
+          <button class="projects__button">
+            <p class="projects__button-text">React</p>
+          </button>
+          <button class="projects__button">
+            <p class="projects__button-text">API</p>
+          </button>
+          <button class="projects__button">
+            <p class="projects__button-text">Hooks</p>
+          </button>
+        </div>
+      </article>
+      <article class="projects__item">
+        <a href="https://anastasiaa1890.github.io/zaberu/" target="_blank"><img src="./images/zaberu.png"
+                                                                                alt="Zaberu Image"
+                                                                                class="projects__img"></a>
+        <h3 class="project__item-title">Project - Zaberu</h3>
+        <p class="projects__subtitle">
+          Java script used. BEM technologies are applied. Responsive layout for mobile devices.
+        </p>
+        <div class="projects__buttons">
+          <button class="projects__button">
+            <p class="projects__button-text">JavaScript</p>
+          </button>
+          <button class="projects__button">
+            <p class="projects__button-text">HTML5</p>
+          </button>
+          <button class="projects__button">
+            <p class="projects__button-text">CSS3</p>
+          </button>
+          <button class="projects__button">
+            <p class="projects__button-text">Animation</p>
+          </button>
+        </div>
+      </article>
+      <article class="projects__item">
+        <a href="https://anastasiaa1890.github.io/russian-travel/index.html" target="_blank"><img
+                src="./images/russia_travel.png" alt="Travel Image" class="projects__img"></a>
+        <h3 class="project__item-title">Project - Russian travel</h3>
+        <p class="projects__subtitle">
+          HTML5 and CSS3 for a training project. BEM technologies are applied. Responsive layout for mobile devices.
+        </p>
+        <div class="projects__buttons">
+          <button class="projects__button">
+            <p class="projects__button-text">HTML5</p>
+          </button>
+          <button class="projects__button">
+            <p class="projects__button-text">CSS3</p>
+          </button>
+          <button class="projects__button">
+            <p class="projects__button-text">BEM</p>
+          </button>
+          <button class="projects__button">
+            <p class="projects__button-text">Mobile version</p>
+          </button>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section id="id_contact" class="contact">
+    <h2 class="contact__title">Contact me</h2>
+    <div class="contact__wrap">
+      <button class="contact__resume-button">
+        <a href="#" class="contact__resume">Get my resume</a>
       </button>
-    </section>
-    <section id="id_skills" class="skills">
-      <h2 class="skills__title">Skills</h2>
-      <div class="skills__boxes">
-        <div class="skills__boxes-list">
-          <div class="skills__frontend">
-            <i class="fa-solid fa-code fa-2xl"></i>
-            <h3 class="skills__subtitle">Frontend</h3>
-            <i class="skills__frontend-btn fa-solid fa-angle-down fa-lg"></i>
-          </div>
-          <ul class="skills__list skills__list-frontend">
-            <li class="skills__item">
-              <div class="skills__item-container">
-                <h2 class="skills__item-title">HTML</h2>
-                <h3 class="skills__item-percent">80%</h3>
-              </div>
-              <div class="progress-bar">
-                <span class="progress-bar__line" style="width: 80%"></span>
-              </div>
-            </li>
-            <li class="skills__item">
-              <div class="skills__item-container">
-                <h2 class="skills__item-title">CSS</h2>
-                <h3 class="skills__item-percent">70%</h3>
-              </div>
-              <div class="progress-bar">
-                <span class="progress-bar__line" style="width: 70%"></span>
-              </div>
-              <div class="skills__item-container">
-                <h2 class="skills__item-title">Java Script</h2>
-                <h3 class="skills__item-percent">70%</h3>
-              </div>
-              <div class="progress-bar">
-                <span class="progress-bar__line" style="width: 70%"></span>
-              </div>
-            </li>
-            <li class="skills__item">
-              <div class="skills__item-container">
-                <h2 class="skills__item-title">React</h2>
-                <h3 class="skills__item-percent">60%</h3>
-              </div>
-              <div class="progress-bar">
-                <span class="progress-bar__line" style="width: 60%"></span>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="skills__boxes-list">
-          <div class="skills__frontend">
-            <i class="fa-brands fa-sketch fa-2xl"></i>
-            <h3 class="skills__subtitle">Design</h3>
-            <i class="skills__design-btn fa-solid fa-angle-down fa-lg"></i>
-          </div>
-          <ul class="skills__list  skills__list-design">
-            <li class="skills__item">
-              <div class="skills__item-container">
-                <h2 class="skills__item-title">Sketch</h2>
-                <h3 class="skills__item-percent">70%</h3>
-              </div>
-              <div class="progress-bar">
-                <span class="progress-bar__line" style="width: 70%"></span>
-              </div>
-            </li>
-            <li class="skills__item">
-              <div class="skills__item-container">
-                <h2 class="skills__item-title">Figma</h2>
-                <h3 class="skills__item-percent">60%</h3>
-              </div>
-              <div class="progress-bar">
-                <span class="progress-bar__line" style="width: 60%"></span>
-              </div>
-              <div class="skills__item-container">
-                <h2 class="skills__item-title">Adobe XD</h2>
-                <h3 class="skills__item-percent">40%</h3>
-              </div>
-              <div class="progress-bar">
-                <span class="progress-bar__line" style="width: 40%"></span>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="skills__boxes-list">
-          <div class="skills__frontend">
-            <i class="fa-brands fa-solid fa-database fa-2xl"></i>
-            <h3 class="skills__subtitle">Backend</h3>
-            <i class="skills__backend-btn fa-solid fa-angle-down fa-lg"></i>
-          </div>
-          <ul class="skills__list skills__list-backend">
-            <li class="skills__item">
-              <div class="skills__item-container">
-                <h2 class="skills__item-title">NodeJS</h2>
-                <h3 class="skills__item-percent">80%</h3>
-              </div>
-              <div class="progress-bar">
-                <span class="progress-bar__line" style="width: 80%"></span>
-              </div>
-            </li>
-            <li class="skills__item">
-              <div class="skills__item-container">
-                <h2 class="skills__item-title">Express.js</h2>
-                <h3 class="skills__item-percent">70%</h3>
-              </div>
-              <div class="progress-bar">
-                <span class="progress-bar__line" style="width: 70%"></span>
-              </div>
-              <div class="skills__item-container">
-                <h2 class="skills__item-title">Mongo DB</h2>
-                <h3 class="skills__item-percent">70%</h3>
-              </div>
-              <div class="progress-bar">
-                <span class="progress-bar__line" style="width: 70%"></span>
-              </div>
-            </li>
-            <li class="skills__item">
-              <div class="skills__item-container">
-                <h2 class="skills__item-title">Nginx</h2>
-                <h3 class="skills__item-percent">60%</h3>
-              </div>
-              <div class="progress-bar">
-                <span class="progress-bar__line" style="width: 60%"></span>
-              </div>
-            </li>
-          </ul>
-        </div>
+      <p class="contact__paragraph">OR</p>
+      <div class="contact__container">
+        <form action="https://formsubmit.co/info@anastasia-developer.com" method="POST" class="contact__form">
+          <input type="text" name="name" class="contact__input contact__input_title" type="text" placeholder="Your name" required minlength="2">
+          <input type="text" name="text" class="contact__input contact__input_title" type="text" placeholder="Type a message" required minlength="2">
+          <input type="email" name="email" class="contact__input contact__input_title" type="text" placeholder="Your email" required>
+          <button type="submit" class="contact__button contact__button_text">Send</button>
+        </form>
       </div>
-    </section>
-    <section class="projects">
-      <h2 class="projects__title">Projects</h2>
-      <div class="projects__list">
-        <article class="projects__item">
-          <a href="https://anastasiaa1890.github.io/ToDoList/" target="_blank"><img src="./images/todolist.png" alt="Todolist Image" class="projects__img"></a>
-          <h3 class="project__item-title">Todo List</h3>
-          <p class="projects__subtitle">
-            Java script used. It is possible to add, remove and mark completed item from the ToDo List. Filtering by field values was used.
-          </p>
-          <div class="projects__buttons">
-            <button class="projects__button">
-              <p class="projects__button-text">JavaScript</p>
-            </button>
-            <button class="projects__button">
-              <p class="projects__button-text">HTML5</p>
-            </button>
-            <button class="projects__button">
-              <p class="projects__button-text">CSS3</p>
-            </button>
-            <button class="projects__button">
-              <p class="projects__button-text">Animation</p>
-            </button>
-          </div>
-        </article>
-        <article class="projects__item">
-          <a href="/" target="_blank"><img src="./images/mesto-react.png" alt="Mesto Image" class="projects__img"></a>
-          <h3 class="project__item-title">React project - Mesto</h3>
-          <p class="projects__subtitle">
-            React library used. It is possible to add, remove and like cards from the list. Edit user avatar and information. Getting API information.
-          </p>
-          <div class="projects__buttons">
-            <button class="projects__button">
-              <p class="projects__button-text">JavaScript</p>
-            </button>
-            <button class="projects__button">
-              <p class="projects__button-text">React</p>
-            </button>
-            <button class="projects__button">
-              <p class="projects__button-text">API</p>
-            </button>
-            <button class="projects__button">
-              <p class="projects__button-text">Hooks</p>
-            </button>
-          </div>
-        </article>
-        <article class="projects__item">
-          <a href="https://anastasiaa1890.github.io/zaberu/" target="_blank"><img src="./images/zaberu.png" alt="Zaberu Image" class="projects__img"></a>
-          <h3 class="project__item-title">Project - Zaberu</h3>
-          <p class="projects__subtitle">
-            Java script used. BEM technologies are applied. Responsive layout for mobile devices.
-          </p>
-          <div class="projects__buttons">
-            <button class="projects__button">
-              <p class="projects__button-text">JavaScript</p>
-            </button>
-            <button class="projects__button">
-              <p class="projects__button-text">HTML5</p>
-            </button>
-            <button class="projects__button">
-              <p class="projects__button-text">CSS3</p>
-            </button>
-            <button class="projects__button">
-              <p class="projects__button-text">Animation</p>
-            </button>
-          </div>
-        </article>
-        <article class="projects__item">
-          <a href="https://anastasiaa1890.github.io/russian-travel/index.html" target="_blank"><img src="./images/russia_travel.png" alt="Travel Image" class="projects__img"></a>
-          <h3 class="project__item-title">Project - Russian travel</h3>
-          <p class="projects__subtitle">
-            HTML5 and CSS3 for a training project. BEM technologies are applied. Responsive layout for mobile devices.
-          </p>
-          <div class="projects__buttons">
-            <button class="projects__button">
-              <p class="projects__button-text">HTML5</p>
-            </button>
-            <button class="projects__button">
-              <p class="projects__button-text">CSS3</p>
-            </button>
-            <button class="projects__button">
-              <p class="projects__button-text">BEM</p>
-            </button>
-            <button class="projects__button">
-              <p class="projects__button-text">Mobile version</p>
-            </button>
-          </div>
-        </article>
-      </div>
-    </section>
-  </div>
-  <script src="./scripts/index.js"></script>
+    </div>
+  </section>
+  <footer class="footer">
+    <p class="footer__copyright">&copy;2022. Anastasia Andreeva</p>
+  </footer>
+</div>
+<script src="./scripts/index.js"></script>
 </body>
 </html>

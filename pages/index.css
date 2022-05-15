@@ -48,4 +48,18 @@
 @import url(../blocks/burger/burger.css);
 @import url(../blocks/burger/__menu/burger__menu.css);
 @import url(../blocks/burger/__link/burger__link.css);
+@import url(../blocks/contact/__title/contact__title.css);
+@import url(../blocks/contact/contact.css);
+@import url(../blocks/contact/__resume/contact__resume.css);
+@import url(../blocks/contact/__paragraph/contact__paragraph.css);
+@import url(../blocks/contact/__wrap/contact__wrap.css);
+@import url(../blocks/contact/__resume-button/contact__resume-button.css);
+@import url(../blocks/contact/__button/contact__button.css);
+@import url(../blocks/contact/__button/_text/contact__button_text.css);
+@import url(../blocks/contact/__form/contact__form.css);
+@import url(../blocks/contact/__container/contact__container.css);
+@import url(../blocks/contact/__input/contact__input.css);
+@import url(../blocks/contact/__input/_title/contact__input_title.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
 

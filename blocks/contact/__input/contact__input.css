@@ -1,0 +1,25 @@
+.contact__input {
+  width: 100%;
+  padding: 40px 0 10px 0;
+  border: 0;
+  border-bottom: 1px solid rgb(71, 77, 110);
+  background-color: #1f2332;
+  font-size: 15px;
+  color: white;
+}
+
+::placeholder {
+  color: #a1a1a2;
+}
+
+.contact__input:last-child {
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 450px) {
+  .contact__input {
+    text-align: center;
+    font-size: 13px;
+  }
+}
+

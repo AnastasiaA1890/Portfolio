@@ -1,0 +1,16 @@
+.contact__button_text {
+  padding: 8px 35px;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 450px) {
+  .contact__button_text {
+    padding: 5px 25px;
+    font-size: 13px;
+  }
+}

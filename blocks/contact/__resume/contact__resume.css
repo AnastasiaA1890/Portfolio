@@ -1,0 +1,23 @@
+.contact__resume {
+  display: block;
+  text-decoration: none;
+  padding: 12px 30px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 600px) {
+  .contact__resume {
+    padding: 10px 25px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .contact__resume {
+    padding: 8px 20px;
+    font-size: 15px;
+  }
+}
