@@ -1,12 +1,20 @@
 .projects__buttons {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  width: 85%;
+  width: 100%;
   padding-top: 10px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 875px) {
   .projects__buttons {
+    justify-content: space-evenly;
+    width: 80%;
+  }
+}
 
+@media screen and (max-width: 400px) {
+  .projects__buttons {
+    display: none;
   }
 }

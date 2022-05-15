@@ -1,34 +1,34 @@
 .projects__img {
-  width: 430px;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
   object-fit: cover;
-  object-position: 0 0;
   border-radius: 20px;
   cursor: pointer;
 }
 
-@media screen and (max-width: 1113px) {
-  .projects__img {
-    width: 350px;
-    height: 200px;
-  }
-}
 
 @media screen and (max-width: 1000px) {
   .projects__img {
-    width: 320px;
-    height: 200px;
+    width: 95%;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 875px) {
   .projects__img {
-    width: 300px;
+    width: 70%;
   }
 }
 
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 730px) {
   .projects__img {
-    width: 200px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .projects__img {
+    width: 100%;
   }
 }
 

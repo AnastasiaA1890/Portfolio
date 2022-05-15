@@ -4,33 +4,15 @@
   align-items: center;
   justify-content: space-evenly;
   margin: 0 auto;
-  width: 430px;
   height: 400px;
   backdrop-filter: blur( 9.5px );
   -webkit-backdrop-filter: blur( 9.5px );
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1113px) {
+@media screen and (max-width: 400px) {
   .projects__item {
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 1050px) {
-  .projects__item {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 788px) {
-  .projects__item {
-    width: 70%;
-  }
-}
-
-@media screen and (max-width: 788px) {
-  .projects__item {
-    width: 80%;
+    height: 300px;
+    justify-content: center;
   }
 }
