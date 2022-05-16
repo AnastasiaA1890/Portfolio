@@ -5,3 +5,7 @@
   cursor: pointer;
 }
 
+.contact__button:hover {
+  background: #5c55fc;
+}
+

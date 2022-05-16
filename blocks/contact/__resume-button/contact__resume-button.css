@@ -4,3 +4,7 @@
   border: none;
   cursor: pointer;
 }
+
+.contact__resume-button:hover {
+  background: #5c55fc;
+}
