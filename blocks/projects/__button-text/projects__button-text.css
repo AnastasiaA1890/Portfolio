@@ -6,6 +6,10 @@
   color: #0E1117;
 }
 
+.projects__button-text:hover {
+  color: white;
+}
+
 @media screen and (max-width: 900px){
   .projects__button-text {
     font-size: 8px;

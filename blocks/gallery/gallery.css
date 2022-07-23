@@ -1,0 +1,19 @@
+.gallery {
+  padding-top: 60px;
+  width: 100%;
+  overflow: hidden;
+  user-select: none;
+}
+
+.gallery__line {
+  overflow: hidden;
+}
+
+.gallery__slide {
+  min-height: 1px;
+  float: left;
+}
+
+.gallery-draggable {
+  cursor: grabbing;
+}

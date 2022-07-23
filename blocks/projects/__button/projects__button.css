@@ -3,3 +3,7 @@
   border-radius: 20px;
   border: none;
 }
+
+.projects__button:hover {
+  background: #75baf8;
+}
