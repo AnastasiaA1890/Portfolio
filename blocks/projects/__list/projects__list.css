@@ -17,7 +17,6 @@
 
 @media screen and (max-width: 400px) {
   .projects__list {
-    row-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
