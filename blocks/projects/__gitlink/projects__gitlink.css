@@ -1,0 +1,12 @@
+.projects__gitlink {
+  color: #92b3e1;
+  font-weight: 400;
+  font-size: 17px;
+  margin: 0;
+  text-decoration: none;
+  padding-top: 5px;
+}
+
+.projects__gitlink:hover {
+  opacity: 0.8;
+}

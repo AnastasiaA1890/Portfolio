@@ -45,6 +45,7 @@
 @import url(../blocks/projects/__subtitle/projects__subtitle.css);
 @import url(../blocks/projects/__buttons/projects__buttons.css);
 @import url(../blocks/projects/__button/projects__button.css);
+@import url(../blocks/projects/__gitlink/projects__gitlink.css);
 @import url(../blocks/projects/__button-text/projects__button-text.css);
 @import url(../blocks/burger/burger.css);
 @import url(../blocks/burger/__menu/burger__menu.css);

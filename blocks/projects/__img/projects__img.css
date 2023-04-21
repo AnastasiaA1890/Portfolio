@@ -7,6 +7,10 @@
   cursor: pointer;
 }
 
+.projects__img:hover {
+  opacity: 0.8;
+}
+
 
 @media screen and (max-width: 1000px) {
   .projects__img {
