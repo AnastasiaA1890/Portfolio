@@ -11,14 +11,14 @@
 }
 
 .about__subtitle {
-  width: 17.5ch;
+  width: 21.5ch;
   margin: 0;
   color: #75BAF8;
   font-weight: 600;
   font-size: 25px;
   border-right: 3px solid;
   white-space: nowrap;
-  animation: typing 2s steps(22), blink 500ms step-end infinite alternate;
+  animation: typing 2s steps(28), blink 500ms step-end infinite alternate;
   overflow: hidden;
 }
 
